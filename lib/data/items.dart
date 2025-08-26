@@ -23,7 +23,7 @@ class Cakes {
 
 List<Cakes> cakes = [
   Cakes(
-    name: 'Princess Birthday Cake',
+    name: 'Childrens Birthday Cake',
     flavourl: 'Creamy',
     price: '250.60',
     image: 'assets/images/01.png',
@@ -53,7 +53,7 @@ List<Cakes> cakes = [
     rating: 2.5,
   ),
   Cakes(
-    name: 'Cup Cake',
+    name: 'Love Cake',
     flavourl: 'Creamy',
     image: 'assets/images/04.png',
     price: '850.60',
