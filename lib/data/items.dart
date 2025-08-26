@@ -45,7 +45,7 @@ List<Cakes> cakes = [
   Cakes(
     name: 'Wedding Cake',
     flavourl: 'Creamy',
-    price: '450.60',
+    price: '3450.60',
     image: 'assets/images/03.png',
     bgColor: pink01,
     destription:
@@ -56,7 +56,7 @@ List<Cakes> cakes = [
     name: 'Love Cake',
     flavourl: 'Creamy',
     image: 'assets/images/04.png',
-    price: '850.60',
+    price: '1050.60',
     bgColor: pink01,
     destription:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. ',
