@@ -21,7 +21,7 @@ class ItemCard extends StatelessWidget {
             alignment: Alignment.bottomCenter,
             child: Container(
               height: 250.0,
-              width: 250.0,
+              width: 300.0,
               padding: EdgeInsets.only(left: 20.0, right: 10.0, bottom: 10.0),
               decoration: BoxDecoration(
                 color: white,
