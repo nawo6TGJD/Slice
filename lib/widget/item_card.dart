@@ -13,7 +13,7 @@ class ItemCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(right: 20.0),
-      width: 250.0,
+      width: 230.0,
       padding: EdgeInsets.only(bottom: 20.0, left: 10.0),
       child: Stack(
         children: [
