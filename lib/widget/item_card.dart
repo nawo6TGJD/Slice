@@ -28,8 +28,7 @@ class ItemCard extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20.0),
                 boxShadow: [
                   BoxShadow(
-                    color: blackShadow,
-                    offset: Offset(0, 7),
+                    offset: Offset(0, 17),
                     blurRadius: 10.0,
                   ),
                 ],
