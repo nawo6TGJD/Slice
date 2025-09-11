@@ -64,7 +64,7 @@ class ItemCard extends StatelessWidget {
                             ),
                             TextSpan(
                               text: cake.price,
-                              style: txtHeading.copyWith(fontSize: 17.0),
+                              style: txtHeading.copyWith(fontSize: 19.0),
                             ),
                           ],
                         ),
@@ -85,11 +85,7 @@ class ItemCard extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 20.0),
               decoration: BoxDecoration(
                 color: pink02,
-                borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(20.0),
-                  topRight: Radius.circular(20.0),
-                  bottomLeft: Radius.circular(20.0),
-                ),
+               
               ),
               child: Image.asset(
                 cake.image,
