@@ -21,11 +21,11 @@ class ItemCard extends StatelessWidget {
             alignment: Alignment.bottomCenter,
             child: Container(
               height: 250.0,
-              width: 300.0,
+              width: 100.0,
               padding: EdgeInsets.only(left: 20.0, right: 10.0, bottom: 10.0),
               decoration: BoxDecoration(
                 color: white,
-                borderRadius: BorderRadius.circular(20.0),
+                borderRadius: BorderRadius.circular(12.0),
                 boxShadow: [
                   BoxShadow(
                     offset: Offset(0, 17),
