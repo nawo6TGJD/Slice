@@ -22,7 +22,7 @@ class CircleButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        height: size != null ? size : 40.0,
+        height: size != null ? size : 50.0,
         width: size != null ? size : 50.0,
         padding: EdgeInsets.all(size != null ? 8.0 : 15.0),
         decoration: BoxDecoration(

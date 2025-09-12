@@ -13,7 +13,7 @@ Widget roundButton({String? text, double? fontsize, double? height}) {
       ),
       child: Center(
         child: Text(
-          text != null ? text : 'Buy Now',
+          text != null ? text : 'Buy Now please !',
           style: TextStyle(
             fontSize: fontsize != null ? fontsize : 11.0,
             color: white,

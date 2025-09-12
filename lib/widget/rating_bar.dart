@@ -7,7 +7,7 @@ class StarRating extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(children: List.generate(5, (index) => buildStar(index)));
+    return Row(children: List.generate(4, (index) => buildStar(index)));
   }
 
   Widget buildStar(int index) {
