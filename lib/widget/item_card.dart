@@ -49,7 +49,7 @@ class ItemCard extends StatelessWidget {
                     style: txtItemCard.copyWith(
                       fontSize: 14,
                       color: grayColor,
-                      fontWeight: FontWeight.w400,
+               
                     ),
                   ),
                   Row(
@@ -81,11 +81,10 @@ class ItemCard extends StatelessWidget {
             right: 0,
             child: Container(
               height: 200.0,
-              width: 220.0,
+              width: 200.0,
               padding: EdgeInsets.symmetric(horizontal: 20.0),
               decoration: BoxDecoration(
                 color: pink02,
-               
               ),
               child: Image.asset(
                 cake.image,
