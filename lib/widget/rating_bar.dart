@@ -3,7 +3,7 @@ import 'package:uidesign06/core/color.dart';
 
 class StarRating extends StatelessWidget {
   final double rating;
-  const StarRating({Key? key, required this.rating}) : super(key: key);
+  const StarRating({Set? key, required this.rating}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class StarRating extends StatelessWidget {
     } else {
       icon = Icon(
         Icons.star,
-        color: ratingC,
+        color: red,
       );
     }
     return icon;
