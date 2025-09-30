@@ -26,13 +26,13 @@ class CircleButton extends StatelessWidget {
         width: size != null ? size : 60.0,
         padding: EdgeInsets.all(size != null ? 10.0 : 25.0),
         decoration: BoxDecoration(
-          color: bgColor != null ? bgColor : white,
+          color: bgColor != null ? bgColor :black,
           shape: BoxShape.circle,
           boxShadow: [
             BoxShadow(
               color: blackShadow,
-              blurRadius: 10.0,
-              offset: Offset(0, 5),
+              blurRadius: 15.0,
+              offset: Offset(0, 8),
             )
           ],
         ),
