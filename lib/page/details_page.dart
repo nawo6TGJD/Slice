@@ -149,7 +149,7 @@ class _DetailPageState extends State<DetailPage> {
         radius: 12.0,
         child: Icon(
           icon,
-          color: iconColor != null ? iconColor : white,
+          color: iconColor != null ? iconColor : red,
           size: 15,
         ),
       ),
