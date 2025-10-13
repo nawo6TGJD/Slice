@@ -22,8 +22,8 @@ class CircleButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        height: size != null ? size : 60.0,
-        width: size != null ? size : 60.0,
+        height: size != null ? size : 70.0,
+        width: size != null ? size : 90.0,
         padding: EdgeInsets.all(size != null ? 10.0 : 25.0),
         decoration: BoxDecoration(
           color: bgColor != null ? bgColor :black,
@@ -31,8 +31,8 @@ class CircleButton extends StatelessWidget {
           boxShadow: [
             BoxShadow(
               color: blackShadow,
-              blurRadius: 15.0,
-              offset: Offset(0, 8),
+              blurRadius: 15``.0,
+              offset: Offset(0, 9),
             )
           ],
         ),
