@@ -146,7 +146,7 @@ class _DetailPageState extends State<DetailPage> {
       onTap: onTap,
       child: CircleAvatar(
         backgroundColor: bgColor,
-        radius: 12.0,
+        radius: 14.0,
         child: Icon(
           icon,
           color: iconColor != null ? iconColor : red,
