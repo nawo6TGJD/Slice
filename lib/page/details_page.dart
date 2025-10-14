@@ -103,7 +103,7 @@ class _DetailPageState extends State<DetailPage> {
                     ),
                   ),
                   Container(
-                    height: 60.0,
+                    height: 50.0,
                     width: 360.0,
                     padding: EdgeInsets.symmetric(horizontal: 20.0),
                     decoration: BoxDecoration(
@@ -146,7 +146,7 @@ class _DetailPageState extends State<DetailPage> {
       onTap: onTap,
       child: CircleAvatar(
         backgroundColor: bgColor,
-        radius: 14.0,
+        radius: 1.0,
         child: Icon(
           icon,
           color: iconColor != null ? iconColor : red,
