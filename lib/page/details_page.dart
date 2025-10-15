@@ -105,11 +105,11 @@ class _DetailPageState extends State<DetailPage> {
                   Container(
                     height: 50.0,
                     width: 360.0,
-                    padding: EdgeInsets.symmetric(horizontal: 20.0),
+                    padding: EdgeInsets.symmetric(horizontal: 260.0),
                     decoration: BoxDecoration(
                       color: pink01,
                       borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(20.0),
+                        topLeft: Radius.circular(200.0),
                       ),
                     ),
                     child: Row(
