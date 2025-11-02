@@ -103,8 +103,8 @@ class _DetailPageState extends State<DetailPage> {
                     ),
                   ),
                   Container(
-                    height: 50.0,
-                    width: 360.0,
+                    height: 30.0,
+                    width: 340.0,
                     padding: EdgeInsets.symmetric(horizontal: 260.0),
                     decoration: BoxDecoration(
                       color: pink01,
@@ -116,7 +116,7 @@ class _DetailPageState extends State<DetailPage> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          'Add to cart',
+                          'Add to carts',
                           style: txtBtnCategory.copyWith(color: mainColor),
                         ),
                         roundButton(
