@@ -89,7 +89,7 @@ class ItemCard02 extends StatelessWidget {
                             text: cake.price,
                             style: txtHeading.copyWith(
                               fontSize: 14.0,
-                              fontWeight: FontWeight.w500,
+                              fontWeight: FontWeight.w400,
                             ),
                           ),
                         ],
