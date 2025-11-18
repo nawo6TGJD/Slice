@@ -13,7 +13,7 @@ class ItemCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(right: 20.0),
-      width: 230.0,
+      width: 250.0,
       padding: EdgeInsets.only(bottom: 20.0, left: 10.0),
       child: Stack(
         children: [
@@ -24,7 +24,7 @@ class ItemCard extends StatelessWidget {
               width: 100.0,
               padding: EdgeInsets.only(left: 20.0, right: 10.0, bottom: 10.0),
               decoration: BoxDecoration(
-                color: white,
+                color: pink,
                 borderRadius: BorderRadius.circular(12.0),
                 boxShadow: [
                   BoxShadow(
