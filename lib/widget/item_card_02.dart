@@ -17,7 +17,7 @@ class ItemCard02 extends StatelessWidget {
           child: Container(
             height: 80.0,
             width: 250.0,
-            margin: EdgeInsets.only(right: 15.0, left: 10.0),
+            margin: EdgeInsets.only(right: 20.0, left: 10.0),
             padding: EdgeInsets.only(bottom: 20.0, left: 10.0),
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20.0),
@@ -26,7 +26,7 @@ class ItemCard02 extends StatelessWidget {
                   BoxShadow(
                     color: blackShadow,
                     offset: Offset(0, 5),
-                    blurRadius: 10,
+                 
                   )
                 ]),
           ),
