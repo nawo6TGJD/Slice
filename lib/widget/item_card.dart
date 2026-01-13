@@ -81,7 +81,7 @@ class ItemCard extends StatelessWidget {
             right: 0,
             child: Container(
               height: 200.0,
-              width: 200.0,
+              width: 220.0,
               padding: EdgeInsets.symmetric(horizontal: 20.0),
               decoration: BoxDecoration(
                 color: pink02,
