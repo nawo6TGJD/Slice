@@ -38,7 +38,7 @@ class CircleButton extends StatelessWidget {
         ),
         child: SvgPicture.asset(
           'assets/icons/$image',
-          color: iconColor != null ? iconColor : grayColor,
+          color: iconColor != null ? iconColor : red,
         ),
       ),
     );
