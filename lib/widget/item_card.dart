@@ -47,7 +47,7 @@ class ItemCard extends StatelessWidget {
                     'Flavor: ${cake.flavourl}',
                     maxLines: 1,
                     style: txtItemCard.copyWith(
-                      fontSize: 15,
+                      fontSize: 14,
                       color: grayColor,
                
                     ),
