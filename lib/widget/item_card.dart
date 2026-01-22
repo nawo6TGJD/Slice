@@ -42,7 +42,7 @@ class ItemCard extends StatelessWidget {
                     maxLines: 1,
                     style: txtItemCard,
                   ),
-                  SizedBox(height: 12.0),
+                  SizedBox(height: 19.0),
                   Text(
                     'Flavor: ${cake.flavourl}',
                     maxLines: 1,
@@ -64,7 +64,7 @@ class ItemCard extends StatelessWidget {
                             ),
                             TextSpan(
                               text: cake.price,
-                              style: txtHeading.copyWith(fontSize: 20.0),
+                              style: txtHeading.copyWith(fontSize: 24.0),
                             ),
                           ],
                         ),
