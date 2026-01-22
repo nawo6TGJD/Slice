@@ -60,7 +60,7 @@ class ItemCard extends StatelessWidget {
                           children: [
                             TextSpan(
                               text: '\$',
-                              style: txtHeading.copyWith(fontSize: 15.0),
+                              style: txtHeading.copyWith(fontSize: 16.0),
                             ),
                             TextSpan(
                               text: cake.price,
