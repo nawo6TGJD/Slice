@@ -29,7 +29,7 @@ class ItemCard extends StatelessWidget {
                 boxShadow: [
                   BoxShadow(
                     offset: Offset(0, 17),
-                    blurRadius: 10.0,
+                    blurRadius: 11.0,
                   ),
                 ],
               ),
