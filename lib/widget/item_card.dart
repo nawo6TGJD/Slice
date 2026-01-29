@@ -12,7 +12,7 @@ class ItemCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(right: 22.0),
+      margin: EdgeInsets.only(right: 25.0),
       width: 250.0,
       padding: EdgeInsets.only(bottom: 23.0, left: 15.0),
       child: Stack(
