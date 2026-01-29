@@ -96,7 +96,7 @@ class ItemCard extends StatelessWidget {
             top: 12,
             right: 12,
             child: CircleButton(
-              size: 30.0,
+              size: 20.0,
               iconColor: mainColor,
               onTap: () {},
               image: 'heart_full.svg',
