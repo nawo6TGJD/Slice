@@ -95,7 +95,7 @@ class _DetailPageState extends State<DetailPage> {
                           style: TextStyle(
                             color: black.withOpacity(0.5),
                             height: 1.5,
-                            fontSize: 16,
+                            fontSize: 18,
                             fontWeight: FontWeight.w400,
                           ),
                         )
