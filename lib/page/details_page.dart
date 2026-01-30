@@ -121,7 +121,7 @@ class _DetailPageState extends State<DetailPage> {
                         ),
                         roundButton(
                           text: '\$${widget.cake.price}',
-                          fontsize: 15,
+                          fontsize: 18,
                         )
                       ],
                     ),
