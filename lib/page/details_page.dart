@@ -93,7 +93,7 @@ class _DetailPageState extends State<DetailPage> {
                           trimMode: TrimMode.Line,
                           colorClickableText: mainColor,
                           style: TextStyle(
-                            color: black.withOpacity(0.5),
+                            color: black.withOpacity(0.9),
                             height: 1.5,
                             fontSize: 18,
                             fontWeight: FontWeight.w400,
