@@ -109,7 +109,7 @@ class _DetailPageState extends State<DetailPage> {
                     decoration: BoxDecoration(
                       color: pink01,
                       borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(200.0),
+                        topLeft: Radius.circular(100.0),
                       ),
                     ),
                     child: Row(
