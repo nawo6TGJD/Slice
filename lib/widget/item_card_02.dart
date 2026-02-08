@@ -34,7 +34,7 @@ class ItemCard02 extends StatelessWidget {
         Container(
           height: 80.0,
           width: 80.0,
-          margin: EdgeInsets.only(right: 15.0, left: 10.0),
+          margin: EdgeInsets.only(right: 25.0, left: 10.0),
           padding: EdgeInsets.all(5),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.only(
