@@ -83,7 +83,7 @@ class ItemCard02 extends StatelessWidget {
                         children: [
                           TextSpan(
                             text: '\$',
-                            style: txtHeading.copyWith(fontSize: 10.0),
+                            style: txtHeading.copyWith(fontSize: 11.0),
                           ),
                           TextSpan(
                             text: cake.price,
