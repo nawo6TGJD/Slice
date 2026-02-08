@@ -62,7 +62,7 @@ class ItemCard02 extends StatelessWidget {
                   cake.name,
                   maxLines: 1,
                   style: txtItemCard.copyWith(
-                    fontSize: 15,
+                    fontSize: 35,
                     fontWeight: FontWeight.w400,
                   ),
                 ),
