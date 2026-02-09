@@ -17,7 +17,7 @@ class CategoryButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedContainer(
       duration: Duration(milliseconds: 1000),
-      margin: EdgeInsets.only(top: 30.0, right: 20.0),
+      margin: EdgeInsets.only(top: 90.0, right: 20.0),
       padding: index == category.id
           ? EdgeInsets.only(left: 5.0, right: 10.0)
           : EdgeInsets.symmetric(horizontal: 10.0),
