@@ -95,7 +95,7 @@ class ItemCard02 extends StatelessWidget {
                         ],
                       ),
                     ),
-                    roundButton(height: 20.0),
+                    roundButton(height: 25.0),
                   ],
                 )
               ],
