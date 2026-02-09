@@ -70,7 +70,7 @@ class ItemCard02 extends StatelessWidget {
                   'Flavor: ${cake.flavourl}',
                   maxLines: 1,
                   style: txtItemCard.copyWith(
-                    fontSize: 32,
+                    fontSize: 35,
                     color: grayColor,
                     fontWeight: FontWeight.w500,
                   ),
@@ -88,7 +88,7 @@ class ItemCard02 extends StatelessWidget {
                           TextSpan(
                             text: cake.price,
                             style: txtHeading.copyWith(
-                              fontSize: 14.0,
+                              fontSize: 15.0,
                               fontWeight: FontWeight.w400,
                             ),
                           ),
