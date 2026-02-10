@@ -6,7 +6,7 @@ Widget roundButton({String? text, double? fontsize, double? height}) {
     onTap: () {},
     child: Container(
       height: height != null ? height : 30.0,
-      padding: EdgeInsets.symmetric(horizontal: 10.0),
+      padding: EdgeInsets.symmetric(horizontal: 15.0),
       decoration: BoxDecoration(
         color: mainColor,
         borderRadius: BorderRadius.circular(50.0),
@@ -15,7 +15,7 @@ Widget roundButton({String? text, double? fontsize, double? height}) {
         child: Text(
           text != null ? text : 'Buy Now please !',
           style: TextStyle(
-            fontSize: fontsize != null ? fontsize : 11.0,
+            fontSize: fontsize != null ? fontsize : 15.0,
             color: white,
             fontWeight: FontWeight.w600,
           ),
