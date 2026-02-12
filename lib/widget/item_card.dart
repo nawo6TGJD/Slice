@@ -93,8 +93,8 @@ class ItemCard extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: 12,
-            right: 12,
+            top: 22,
+            right: 22,
             child: CircleButton(
               size: 20.0,
               iconColor: mainColor,
